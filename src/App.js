@@ -55,8 +55,6 @@ export const App = () => {
 
   return(
     <div className="wrapper">
-      <h1>Car List</h1>
-      <p>Add and view your list.</p>
       <div className="main">
         <div className="form-container">
           <form autoComplete="off" className="form-group"
@@ -94,6 +92,7 @@ export const App = () => {
                 </tr>
               </thead>
               <tbody>
+              
                 <View cars={cars} deleteCar={deleteCar}/>
               </tbody>
             </table>
